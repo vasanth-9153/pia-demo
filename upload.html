@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="upload.css">
+        <script src="script.js"> </script>
+        <title>Upload an Image</title>
+    </head>
+    <body>
+        <div class="container">
+        <nav class="navbar">
+            <div class="container-fluid">          
+              
+              <span class="navbar-brand mb-0 h1">Product Identification and Arrangement</span>
+              
+            </div>
+          </nav>
+        <div class="fileupload">
+            <label class="form-label" for="customFile">Upload an Image (.jpeg,.jpg,.png only)</label>
+            <input type="file" class="form-control" id="capture" onchange="return fileValidation()" />
+            <br><br> 
+          
+                                   
+                <div id="imagePreview"></div>
+                <br>
+                <div id="submitButton">
+                <button type="submit" onclick="predictPicture()"> Submit </button>
+                </div></div>
+                
+                </div>
+
+                
+
+                                  
+       
+         
+
+        
+       
+              
+       
+    </body>
+</html>

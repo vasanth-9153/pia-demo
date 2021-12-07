@@ -1,0 +1,55 @@
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px ;
+    padding: 10px;
+    }
+    .upload
+    {
+      background-color: #ffc40c;
+      border: none;
+      color: black;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 10px 2px;
+      cursor: pointer;
+      border-radius: 30px;
+    }
+    
+    .camera
+    {
+      background-color: #ffc40c;
+      border: none;
+      color: black;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 20px;
+    }
+    
+    .navbar
+    {
+        background-color: #ffc40c;
+        font-size: 20px;
+        padding: 10px 5px;
+        border-radius: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .navbar-brand
+    {
+        text-align: center;
+        display: flex;
+        
+        
+    
+    }
+    

@@ -1,0 +1,33 @@
+.navbar
+{
+    background-color: #ffc40c;
+    font-size: 20px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand
+{
+    text-align: center;
+    display: flex;  
+}
+.form-label{ font-family: Georgia, 'Times New Roman', Times, serif;}
+
+.fileupload
+            {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                border: 5px ;
+                padding: 10px;
+            }
+
+
+.center {
+    position:sticky;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+    
